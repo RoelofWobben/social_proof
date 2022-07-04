@@ -107,3 +107,63 @@ h1{
     line-height: 1.5;
     letter-spacing: 0.01px;     
 }
+
+@media screen and (min-width: 1000px){
+
+    body{
+       display: flex;
+       flex-direction: row;
+       background-image: url("./images/bg-pattern-top-desktop.svg") , url("./images/bg-pattern-bottom-desktop.svg");
+       background-repeat: no-repeat;
+       background-position: top left, bottom center;
+       padding-left: 150px;  
+    }
+
+    h1{
+        padding-left: 0px;
+        font-size: 5em; 
+    }
+
+    .container{
+        width: 1400px;
+        text-align: left;
+        margin-top: 100px;   
+    }
+
+    .top{
+        display: flex; 
+        flex-direction: row;
+    }
+
+    .tekst{
+        width: 600px;
+    }
+
+    .ratings{
+        width: 800px;
+    }
+
+    
+    .rating{
+        padding-left: 40px; 
+        padding-right: 40px;
+        width: 450px;
+        display: flex; 
+        flex-direction: row;   
+    }
+
+    .rating_stars{
+        margin-right: 30px; 
+    }
+
+    .reviews{
+        display: flex; 
+        flex-direction: row;
+    }
+
+    .review{
+        width: 320px;
+        }
+
+    
+}
